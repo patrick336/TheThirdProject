@@ -1,0 +1,40 @@
+// HOME
+
+/* Style for "Welcome to" */
+// width: 751px;
+// height: 26px;
+// color: #ffffff;
+// font-family: Montserrat;
+// font-size: 36px;
+// font-weight: 700;
+// line-height: 9px;
+// text-transform: uppercase;
+
+/* Style for "With combi" */
+// width: 812px;
+// height: 82px;
+// color: #ffffff;
+// font-family: "PT Sans";
+// font-size: 16px;
+// font-weight: 400;
+// line-height: 34px;
+
+/* Style for "Ellipse 1" */
+// width: 15px;
+// height: 15px;
+
+/* Style for "Ellipse 1" */
+// width: 5px;
+// height: 5px;
+// background-color: #ffffff;
+
+// Layer
+// opacity: 0.3;
+
+
+.home  {
+  position: relative;
+  @extend .bg-cover;
+  background-image: url($home1-image);
+
+}
